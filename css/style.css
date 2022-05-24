@@ -301,21 +301,20 @@ h2{
 }
 
 .partnership-row{
-    width: 100%;
+    width: calc(100vw / 3)
     height: 300px;
     margin-top: 50px;
     border: 1px solid black;
 }
 
 .partnership-col{
-    width: 33.33%;
-    flex-wrap: wrap; 
+    width: calc(100% / 4);
+    flex-wrap: wrap;
 }
 
 .partnership-col img{
-    width: 150px;
-    height: 150px;
-    padding: 20px;
+    width: 50%;
+    height: 305px;
     background-color: lightgreen;
 }
 
