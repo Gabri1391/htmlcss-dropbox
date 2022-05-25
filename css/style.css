@@ -7,6 +7,7 @@
 /* color palette
 azzurro: #B4D0E7
 blu: #0061FF */
+/* bordeaux:#61082B */
 
 /* Utils */
 body{
@@ -34,6 +35,7 @@ body{
 header{
     background-color: #B4D0E7;
     height: 700px;
+    margin-bottom: 80px;
 }
 
 .navbar{
@@ -264,6 +266,7 @@ h3{
     text-align: center;
     font-size: 12px;
     margin-top: 10px;
+    background-color: #fff;
 }
 
 /* dropbox-business */
@@ -301,20 +304,72 @@ h2{
 }
 
 .partnership-row{
-    width: calc(100vw / 3)
-    height: 300px;
+    width:100%;
     margin-top: 50px;
-    border: 1px solid black;
 }
 
 .partnership-col{
-    width: calc(100% / 4);
+    width: calc(100% / 3);
     flex-wrap: wrap;
 }
 
 .partnership-col img{
     width: 50%;
-    height: 305px;
+    height: 200px;
+    padding: 30px;
     background-color: lightgreen;
 }
 
+.big-partnership-col img{
+    width: 300px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.big-partnership-col{
+    max-width: 33.33%;
+    padding: 30px;
+}
+
+.free-task{
+    width: 100%;
+    height: 250px;
+    background-color: #B4D0E7;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.free-task h3{
+    padding-right: 80px;
+    font-size: 30px;
+    color: #61082B;
+}
+
+/* Q&A */
+.qanda{
+    text-align: center;
+    margin-top: 40px;
+    max-width: 800px;
+    padding: 50px;
+}
+
+.qanda p{
+    padding:20px 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+}
+
+.qanda div{
+    font-size: 28px;
+    text-align: left;
+    padding:40px 0;
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+}
